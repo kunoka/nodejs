@@ -1,0 +1,248 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose linkPkg /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app
+5 silly gentlyRm /usr/local/lib/node_modules/myweb is being purged
+6 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/myweb
+7 verbose link build target /usr/local/lib/node_modules/myweb
+8 verbose install where, what [ '/Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app', [] ]
+9 verbose readDependencies loading dependencies from /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/package.json
+10 verbose install where, deps [ '/Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app',
+10 verbose install   [ 'commander' ] ]
+11 verbose install where, peers [ '/Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app', [] ]
+12 verbose installManyTop reading for lifecycle /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/package.json
+13 info preinstall myweb@0.0.1
+14 verbose installManyTop reading scoped package data from /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/express/package.json
+15 verbose installManyTop reading scoped package data from /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/jade/package.json
+16 info package.json express@3.0.1 No license field.
+17 verbose readDependencies loading dependencies from /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/package.json
+18 verbose targetResolver reading package data from /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/express/package.json
+19 verbose targetResolver reading package data from /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/jade/package.json
+20 verbose targetResolver reading package data from /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/.bin/express/package.json
+21 verbose targetResolver reading package data from /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/.bin/express.cmd/package.json
+22 verbose targetResolver reading package data from /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/.bin/jade/package.json
+23 silly cache add args [ 'commander@0.5.2', null ]
+24 verbose cache add spec commander@0.5.2
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'commander@0.5.2',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'commander',
+25 silly cache add   rawSpec: '0.5.2',
+25 silly cache add   spec: '0.5.2',
+25 silly cache add   type: 'version' }
+26 silly addNamed commander@0.5.2
+27 verbose addNamed "0.5.2" is a plain semver version for commander
+28 silly mapToRegistry name commander
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npm.taobao.org/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'commander',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   name: 'commander',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri https://registry.npm.taobao.org/commander
+33 verbose addNameVersion registry:https://registry.npm.taobao.org/commander not in flight; fetching
+34 verbose request uri https://registry.npm.taobao.org/commander
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 7:02:47 PM
+37 verbose request id e5bcaee2d1a07cc6
+38 verbose etag "11abf-26Es+vgnHfjF5jz9kzhBmw"
+39 http request GET https://registry.npm.taobao.org/commander
+40 http 304 https://registry.npm.taobao.org/commander
+41 verbose headers { date: 'Sat, 29 Oct 2016 11:02:48 GMT',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-current-requests': '1',
+41 verbose headers   etag: '"11abf-26Es+vgnHfjF5jz9kzhBmw"',
+41 verbose headers   'x-readtime': '88' }
+42 silly get cb [ 304,
+42 silly get   { date: 'Sat, 29 Oct 2016 11:02:48 GMT',
+42 silly get     connection: 'keep-alive',
+42 silly get     'x-current-requests': '1',
+42 silly get     etag: '"11abf-26Es+vgnHfjF5jz9kzhBmw"',
+42 silly get     'x-readtime': '88' } ]
+43 verbose etag https://registry.npm.taobao.org/commander from cache
+44 verbose get saving commander to /Users/gary/.npm/registry.npm.taobao.org/commander/.cache.json
+45 verbose correctMkdir /Users/gary/.npm correctMkdir not in flight; initializing
+46 silly mapToRegistry name commander
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npm.taobao.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'commander',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   name: 'commander',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npm.taobao.org/commander
+51 verbose addRemoteTarball https://registry.npm.taobao.org/commander/download/commander-0.5.2.tgz not in flight; adding
+52 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/commander/download/commander-0.5.2.tgz',
+52 verbose addRemoteTarball   'f270326709a115a126cfed5623852439b8e4a3b5' ]
+53 info retry fetch attempt 1 at 7:02:48 PM
+54 info attempt registry request try #1 at 7:02:48 PM
+55 http fetch GET https://registry.npm.taobao.org/commander/download/commander-0.5.2.tgz
+56 http fetch 200 https://registry.npm.taobao.org/commander/download/commander-0.5.2.tgz
+57 silly fetchAndShaCheck shasum f270326709a115a126cfed5623852439b8e4a3b5
+58 verbose addTmpTarball /tmp/npm-51214-13f0680e/registry.npm.taobao.org/commander/download/commander-0.5.2.tgz not in flight; adding
+59 verbose addTmpTarball already have metadata; skipping unpack for commander@0.5.2
+60 verbose correctMkdir /Users/gary/.npm correctMkdir not in flight; initializing
+61 silly cache afterAdd commander@0.5.2
+62 verbose afterAdd /Users/gary/.npm/commander/0.5.2/package/package.json not in flight; writing
+63 verbose correctMkdir /Users/gary/.npm correctMkdir not in flight; initializing
+64 verbose afterAdd /Users/gary/.npm/commander/0.5.2/package/package.json written
+65 silly install resolved [ { name: 'commander',
+65 silly install resolved     version: '0.5.2',
+65 silly install resolved     description: 'the complete solution for node.js command-line programs',
+65 silly install resolved     keywords: [ 'command', 'option', 'parser', 'prompt', 'stdin' ],
+65 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+65 silly install resolved     repository:
+65 silly install resolved      { type: 'git',
+65 silly install resolved        url: 'https://github.com/visionmedia/commander.js.git' },
+65 silly install resolved     dependencies: {},
+65 silly install resolved     devDependencies: { should: '>= 0.0.1' },
+65 silly install resolved     scripts: { test: 'make test' },
+65 silly install resolved     main: 'index',
+65 silly install resolved     engines: { node: '>= 0.4.x' },
+65 silly install resolved     _id: 'commander@0.5.2',
+65 silly install resolved     dist:
+65 silly install resolved      { shasum: 'f270326709a115a126cfed5623852439b8e4a3b5',
+65 silly install resolved        size: 9741,
+65 silly install resolved        noattachment: false,
+65 silly install resolved        tarball: 'http://registry.npm.taobao.org/commander/download/commander-0.5.2.tgz' },
+65 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+65 silly install resolved     directories: {},
+65 silly install resolved     publish_time: 1340658545996,
+65 silly install resolved     _cnpm_publish_time: 1340658545996,
+65 silly install resolved     _shasum: 'f270326709a115a126cfed5623852439b8e4a3b5',
+65 silly install resolved     _resolved: 'https://registry.npm.taobao.org/commander/download/commander-0.5.2.tgz',
+65 silly install resolved     _from: 'commander@0.5.2' } ]
+66 info install commander@0.5.2 into /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app
+67 info installOne commander@0.5.2
+68 verbose installOne of commander to /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app not in flight; installing
+69 verbose correctMkdir /Users/gary/.npm/_locks correctMkdir not in flight; initializing
+70 verbose lock using /Users/gary/.npm/_locks/commander-1bcd1c02ebd4eed1.lock for /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/commander
+71 silly install write writing commander 0.5.2 to /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/commander
+72 verbose unbuild node_modules/commander
+73 silly gentlyRm /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/commander is being purged from base /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app
+74 verbose gentlyRm don't care about contents; nuking /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/commander
+75 verbose tar unpack /Users/gary/.npm/commander/0.5.2/package.tgz
+76 verbose tar unpacking to /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/commander
+77 silly gentlyRm /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/commander is being purged
+78 verbose gentlyRm don't care about contents; nuking /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/commander
+79 silly gunzTarPerm modes [ '755', '644' ]
+80 silly gunzTarPerm extractEntry package.json
+81 silly gunzTarPerm extractEntry .npmignore
+82 silly gunzTarPerm extractEntry index.js
+83 silly gunzTarPerm extractEntry .travis.yml
+84 silly gunzTarPerm extractEntry History.md
+85 silly gunzTarPerm extractEntry lib/commander.js
+86 silly gunzTarPerm extractEntry Makefile
+87 silly gunzTarPerm extractEntry Readme.md
+88 verbose write writing to /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/commander/package.json
+89 info preinstall commander@0.5.2
+90 verbose readDependencies loading dependencies from /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/commander/package.json
+91 verbose readDependencies loading dependencies from /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/commander/package.json
+92 silly install resolved []
+93 verbose about to build /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/commander
+94 info build /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/commander
+95 info linkStuff commander@0.5.2
+96 silly linkStuff commander@0.5.2 has /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules as its parent node_modules
+97 verbose linkBins commander@0.5.2
+98 verbose linkMans commander@0.5.2
+99 verbose rebuildBundles commander@0.5.2
+100 info install commander@0.5.2
+101 info postinstall commander@0.5.2
+102 verbose unlock done using /Users/gary/.npm/_locks/commander-1bcd1c02ebd4eed1.lock for /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/commander
+103 info build /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app
+104 info linkStuff myweb@0.0.1
+105 silly linkStuff myweb@0.0.1 has /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8 as its parent node_modules
+106 verbose linkBins myweb@0.0.1
+107 verbose linkMans myweb@0.0.1
+108 verbose rebuildBundles myweb@0.0.1
+109 verbose rebuildBundles [ '.bin', 'commander', 'express', 'jade' ]
+110 verbose rebuild bundle /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/express
+111 info build /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/express
+112 info preinstall express@3.0.1
+113 info linkStuff express@3.0.1
+114 silly linkStuff express@3.0.1 has /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules as its parent node_modules
+115 verbose linkBins express@3.0.1
+116 verbose link bins [ { express: './bin/express' },
+116 verbose link bins   '/Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/.bin',
+116 verbose link bins   false ]
+117 verbose linkMans express@3.0.1
+118 verbose rebuildBundles express@3.0.1
+119 verbose rebuildBundles [ 'commander',
+119 verbose rebuildBundles   'connect',
+119 verbose rebuildBundles   'cookie',
+119 verbose rebuildBundles   'cookie-signature',
+119 verbose rebuildBundles   'crc',
+119 verbose rebuildBundles   'debug',
+119 verbose rebuildBundles   'fresh',
+119 verbose rebuildBundles   'methods',
+119 verbose rebuildBundles   'mkdirp',
+119 verbose rebuildBundles   'range-parser',
+119 verbose rebuildBundles   'send' ]
+120 silly gentlyRm /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/.bin/express is being purged
+121 verbose gentlyRm don't care about contents; nuking /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/.bin/express
+122 silly vacuum-fs purging /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/.bin/express
+123 silly vacuum-fs quitting because other entries in /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/.bin
+124 info install express@3.0.1
+125 info postinstall express@3.0.1
+126 verbose rebuild bundle /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/jade
+127 info build /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/jade
+128 info preinstall jade@1.11.0
+129 info linkStuff jade@1.11.0
+130 silly linkStuff jade@1.11.0 has /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules as its parent node_modules
+131 verbose linkBins jade@1.11.0
+132 verbose link bins [ { jade: './bin/jade.js' },
+132 verbose link bins   '/Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/.bin',
+132 verbose link bins   false ]
+133 verbose linkMans jade@1.11.0
+134 verbose rebuildBundles jade@1.11.0
+135 verbose rebuildBundles [ '.bin',
+135 verbose rebuildBundles   'character-parser',
+135 verbose rebuildBundles   'clean-css',
+135 verbose rebuildBundles   'commander',
+135 verbose rebuildBundles   'constantinople',
+135 verbose rebuildBundles   'jstransformer',
+135 verbose rebuildBundles   'mkdirp',
+135 verbose rebuildBundles   'transformers',
+135 verbose rebuildBundles   'uglify-js',
+135 verbose rebuildBundles   'void-elements',
+135 verbose rebuildBundles   'with' ]
+136 silly gentlyRm /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/.bin/jade is being purged
+137 verbose gentlyRm don't care about contents; nuking /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/.bin/jade
+138 silly vacuum-fs purging /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/.bin/jade
+139 silly vacuum-fs quitting because other entries in /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/node_modules/.bin
+140 info install jade@1.11.0
+141 info postinstall jade@1.11.0
+142 info install myweb@0.0.1
+143 info postinstall myweb@0.0.1
+144 info prepublish myweb@0.0.1
+145 verbose validateInstall loading /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app/package.json for validation
+146 info build /usr/local/lib/node_modules/myweb
+147 info linkStuff myweb@0.0.1
+148 silly linkStuff myweb@0.0.1 has /usr/local/lib/node_modules as its parent node_modules
+149 silly linkStuff myweb@0.0.1 is part of a global install
+150 silly linkStuff myweb@0.0.1 is installed into a global node_modules
+151 silly linkStuff myweb@0.0.1 is installed into the top-level global node_modules
+152 verbose linkBins myweb@0.0.1
+153 verbose link bins [ { myweb: 'index.js' }, '/usr/local/bin', true ]
+154 verbose linkMans myweb@0.0.1
+155 verbose stack Error: ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/myweb/index.js'
+155 verbose stack     at Error (native)
+156 verbose cwd /Users/gary/Desktop/Harry/Study/nodejs/2/2.2.8/app
+157 error Darwin 15.0.0
+158 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "link"
+159 error node v4.5.0
+160 error npm  v2.15.9
+161 error path /usr/local/lib/node_modules/myweb/index.js
+162 error code ENOENT
+163 error errno -2
+164 error syscall chmod
+165 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/myweb/index.js'
+165 error enoent This is most likely not a problem with npm itself
+165 error enoent and is related to npm not being able to find a file.
+166 verbose exit [ -2, true ]
