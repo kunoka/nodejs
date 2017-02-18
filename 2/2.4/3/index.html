@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<hesad>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Socket</title>
+    <script type="text/javascript" src="http://localhost:3001/socket.io/socket.io.js"></script>
+</hesad>
+
+<body>
+<script type="text/javascript">
+    var socket = io.connect('http://localhost:3001');
+
+    socket.emit('msg', {state: 'success'});
+    socket.on('msg',function(data){
+        console.log(data);
+        if(data.me === 'very good'){
+            socket.emit('msg',{connection:'good'})
+        }
+    })
+
+</script>
+
+</body>
+</html>
