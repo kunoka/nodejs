@@ -2,51 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4632ece-3e21-4883-b9e5-86e512f5b873" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/3.1/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/3.1/routers/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1/1.4/1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1/1.4/2.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1/1.4/2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1/1.4/3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1/1.4/modules/readImage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1/1.4/public/file/index.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.1/3/globalObject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.1/3/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.1/3/parse_dns_ex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.1/4/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.1/4/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.1/4/parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.1/4/router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.3/2.3.2/Coder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.3/2.3.2/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.3/2.3.2/person.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.3/2.3.2/static_index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.3/2.3.2/student.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.3/2.3.2/student_static.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.3/2.3.2/teacher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.3/2.3.3/single_app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.3/2.3.3/single_class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.3/2.3.4/adaptee.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.3/2.3.4/adapter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.3/2.3.4/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.3/2.3.4/target.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/1.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/1.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/1.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/invoke.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/person.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/3.1/3.1.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/3.1/3.1.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/3.1/http/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/3.1/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/3.1/routers/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/3.1/routers/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/3.1/routers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/3.1/routers/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/1/StudyNote" afterPath="$PROJECT_DIR$/StudyNote" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3/3.1/index.html" afterPath="$PROJECT_DIR$/3/3.1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3/3.1/routers/index.html" afterPath="$PROJECT_DIR$/3/3.1/routers/index.html" />
     </list>
     <ignored path="nodejs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -297,6 +255,7 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -422,12 +381,20 @@
       <workItem from="1486691506166" duration="19000" />
       <workItem from="1487378171903" duration="1412000" />
       <workItem from="1487380653785" duration="17625000" />
-      <workItem from="1487400212821" duration="886000" />
+      <workItem from="1487400212821" duration="955000" />
     </task>
+    <task id="LOCAL-00001" summary="mac webstorm 2:59 PM 2017-02-18">
+      <created>1487401225097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1487401225097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46375000" />
+    <option name="totallyTimeSpent" value="46444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="224" y="23" width="1033" height="838" extended-state="0" />
@@ -441,7 +408,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41789052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3658211" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36729223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -480,6 +447,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mac webstorm 2:59 PM 2017-02-18" />
+    <option name="LAST_COMMIT_MESSAGE" value="mac webstorm 2:59 PM 2017-02-18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -758,6 +729,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
