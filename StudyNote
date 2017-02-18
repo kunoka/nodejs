@@ -1,0 +1,27 @@
+2016-9-13
+
+回调是一种阻塞式调用 - 一段代码a调用另一段代码b时，需要等到b执行完后再执行a
+异步调用是一种非阻塞式调用 - 一段异步代码未执行完，可以继续执行下一段代码。
+异步调用是指使用了异步函数，像setTimeout
+
+2016-10-11
+
+npm全局安装 /usr/local/lib/node_modules/
+
+npm当前工作目录 cd desktop/harry/study/nodejs/app/node_modules/
+
+2016-11-9
+安装Express
+//进入任何目录 执行
+express app
+
+install dependencies:
+ $ cd app && npm install
+
+//不能使用node app.js, 要使用npm start,如果不加DEBUG=app 则控制台没有 app:server Listening on port 3000 +0ms 显示
+run the app:
+ $ DEBUG=app:* npm start
+
+ 2017-02-18
+ res.writeHead(200, {'Content-Type':'text/plain'})
+ 'text/html' 'image/png' 'image/jpeg'
