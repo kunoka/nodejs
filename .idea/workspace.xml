@@ -217,28 +217,6 @@
               <option name="myItemId" value="1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodejs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -381,7 +359,7 @@
       <workItem from="1487380653785" duration="17625000" />
       <workItem from="1487400212821" duration="1322000" />
       <workItem from="1487401629473" duration="18907000" />
-      <workItem from="1487726114129" duration="3302000" />
+      <workItem from="1487726114129" duration="3374000" />
     </task>
     <task id="LOCAL-00001" summary="mac webstorm 2:59 PM 2017-02-18">
       <created>1487401225097</created>
@@ -401,7 +379,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69020000" />
+    <option name="totallyTimeSpent" value="69092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1237" height="838" extended-state="0" />
