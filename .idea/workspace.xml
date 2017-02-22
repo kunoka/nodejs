@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4632ece-3e21-4883-b9e5-86e512f5b873" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3/1/5/test.paw" afterPath="$PROJECT_DIR$/3/1/5/test.paw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3/1/5/httpparams.js" afterPath="$PROJECT_DIR$/3/1/5/httpparams.js" />
     </list>
     <ignored path="nodejs.iws" />
@@ -24,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="httpparams.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="httpparams.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3/1/5/httpparams.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="90">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -51,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/3/3.1/routers/image.js" />
         <option value="$PROJECT_DIR$/3/3.1/3.1.1.js" />
         <option value="$PROJECT_DIR$/3/3.1/3.1.2.js" />
         <option value="$PROJECT_DIR$/1/1.4/1.js" />
@@ -102,6 +112,7 @@
         <option value="$PROJECT_DIR$/3/1/4/5/testparams.js" />
         <option value="$PROJECT_DIR$/3/1/4/5/httpparams.js" />
         <option value="$PROJECT_DIR$/3/1/5/httpparams.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -356,7 +367,7 @@
       <workItem from="1487380653785" duration="17625000" />
       <workItem from="1487400212821" duration="1322000" />
       <workItem from="1487401629473" duration="18907000" />
-      <workItem from="1487726114129" duration="4038000" />
+      <workItem from="1487726114129" duration="4210000" />
     </task>
     <task id="LOCAL-00001" summary="mac webstorm 2:59 PM 2017-02-18">
       <created>1487401225097</created>
@@ -376,7 +387,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69756000" />
+    <option name="totallyTimeSpent" value="69928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1237" height="838" extended-state="0" />
@@ -462,13 +473,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2/2.1/3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2/2.1/4/parse.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -817,8 +821,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3/1/5/httpparams.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="90">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
         </state>
       </provider>

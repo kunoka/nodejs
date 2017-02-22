@@ -3,7 +3,7 @@
  */
 
 var url = require('url');
-var querystring = require('querystring');
+// var querystring = require('querystring');
 var _req, _res;
 
 module.exports.init = function(res, req){
@@ -27,8 +27,6 @@ module.exports.post = function(key, callback){
     });
 
     _req.addListener('end', function(){
-        // console.log(postData);
-        console.log(querystring.parse(postData));
         var keys =  JSON.parse(postData)[key];
         return keys? callback(keys) : '';
     });
