@@ -3,13 +3,3 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
-
-  if title == 'admin'
-    p this is an admin
-  else
-    p this is not an admin
-
-
-  var items = ["one","two","three"]
-    each item in items
-    li = item

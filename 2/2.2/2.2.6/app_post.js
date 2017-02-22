@@ -13,11 +13,12 @@ http.createServer(function(req, res) {
         postData += postDataChunk;
     });
     req.addListener("end", function() {
-        console.log("postData: " + postData);
-        console.log("querystring.parse(postData): " + querystring.parse(postData));
-        console.log("postStr: " + postStr);
+        console.log(" <<<<<<<<< req.method: >>>>>>>>>" + req.method);
+        // console.log("postData: " + JSON.stringify(postData));
+        // console.log("querystring.parse(postData): " + querystring.parse(postData));
+        // console.log("postStr: " + postStr);
         var postStr = JSON.stringify(querystring.parse(postData));
-        console.log("postStr: " + postStr);
+        // console.log("postStr: " + postStr);
         res.writeHead(200, { 'Content-Type': 'text/plain' });
         res.end(postStr+'\n' + req.method + "server has recieved the message");
     });

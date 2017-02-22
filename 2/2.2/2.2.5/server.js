@@ -20,7 +20,7 @@
 // }
 
 /* 方法2： 只用socket.io模块 */
-//var io = require('socket.io').listen(8080);
+var io = require('socket.io').listen(8080);
 
 /* 方法3：使用http和socket.io模块*/
 //var server = require('http').createServer();
