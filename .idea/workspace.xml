@@ -2,44 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4632ece-3e21-4883-b9e5-86e512f5b873" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/1/end.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/2/end.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.2.5/index_client.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.2.5/index_server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/new1/person.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/new1/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/new2/person.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/new2/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/new3/person.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/new3/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/new4/person.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/1/new4/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/5/animal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/5/bird.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/5/duck.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/5/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/1/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/1/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/2/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/2/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/2/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/4/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/5/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/5/httpparams.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/5/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/5/testparams.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2/2.4/3/socket.io/index_client.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2/2.4/3/socket.io/index_server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2/2.4/3/socket.io/socket.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2/2.4/3/socket.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/1/5/test.paw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/2/new/2/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/2/new/2/bin/www" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/2/new/2/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/2/new/2/public/stylesheets/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/2/new/2/routes/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/2/new/2/routes/users.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/2/new/2/views/error.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/2/new/2/views/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2/2.4/2/new/2/views/layout.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2/2.2/2.2.2/app/views/index.jade" afterPath="$PROJECT_DIR$/2/2.2/2.2.2/app/views/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2/2.2/2.2.5/index.html" afterPath="$PROJECT_DIR$/2/2.2/2.2.5/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2/2.2/2.2.5/server.js" afterPath="$PROJECT_DIR$/2/2.2/2.2.5/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2/2.2/2.2.6/app_post.js" afterPath="$PROJECT_DIR$/2/2.2/2.2.6/app_post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2/2.2/2.2.7/execute.js" afterPath="$PROJECT_DIR$/2/2.2/2.2.7/execute.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2/2.4/3/server.js" afterPath="$PROJECT_DIR$/2/2.4/3/server.js" />
     </list>
     <ignored path="nodejs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -359,7 +333,7 @@
       <workItem from="1487380653785" duration="17625000" />
       <workItem from="1487400212821" duration="1322000" />
       <workItem from="1487401629473" duration="18907000" />
-      <workItem from="1487726114129" duration="3374000" />
+      <workItem from="1487726114129" duration="3759000" />
     </task>
     <task id="LOCAL-00001" summary="mac webstorm 2:59 PM 2017-02-18">
       <created>1487401225097</created>
@@ -379,7 +353,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69092000" />
+    <option name="totallyTimeSpent" value="69477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1237" height="838" extended-state="0" />
