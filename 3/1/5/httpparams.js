@@ -17,7 +17,7 @@ module.exports.get = function(key){
     var keys = querystring.parse(path)[key];
     console.log(keys);
     return keys? keys : '';
-};;
+};
 
 module.exports.post = function(key, callback){
     var postData = '';
@@ -28,7 +28,7 @@ module.exports.post = function(key, callback){
 
     _req.addListener('end', function(){
         // console.log(postData);
-        // console.log(JSON.parse(postData).email);
+        console.log(querystring.parse(postData));
         var keys =  JSON.parse(postData)[key];
         return keys? callback(keys) : '';
     });
