@@ -11,4 +11,4 @@ decipher.update(encryptedPassword, 'hex', 'utf8');
 var decryptedPassword = decipher.final('utf8');
 
 console.log('encrypted :', encryptedPassword);
-console.log('decrypted :', decryptedPassword);
+console.log('decrypted :', debcryptedPassword);
