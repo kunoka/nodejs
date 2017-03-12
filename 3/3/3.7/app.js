@@ -1,7 +1,8 @@
 /**
  * Created by gao on 2017/3/12.
  */
-global.PATH = __dirname;
+global.BASE_DIR = __dirname;
+global.CON = "./controller/"
 global.lib = {
     fs : require('fs'),
     http : require('http'),
@@ -31,15 +32,22 @@ lib.http.createServer(function(req, res) {
 //        var param = lib.querystring(postData);
     });
     lib.router.init(res, req);
-    var pathname = __dirname;
-    var urlPath = lib.url.parse(req.url).pathname;
-    console.log("urlPath： " + urlPath);
-    var index = req.url.lastIndexOf('\/');
+    var path = lib.url.parse(req.url).path;
+    var pathName = lib.url.parse(req.url).pathname;
+    console.log( lib.url.parse(req.url));
+    var index = path.lastIndexOf('\/');
 //    console.log("index: " + index);
-    var target = req.url.substring(index+1);
-//    console.log(target);
-    var model = urlPath;
-    switch (urlPath) {
+    var target = path.substring(index+1);
+    var modelArr = target.split("?");
+    if(modelArr) {
+        console.log(modelArr[0]);
+//        var model = require(CON + modelArr[0]);
+//        var controller = lib.querystring.parse(lib.url.parse(path).query).c;
+////        model = require('./lib/' + model[0]);
+//        console.log(" controller:"  +controller);
+//
+    }
+    switch (pathName) {
         case "/" :
             lib.router.gotoIndex(res, req);
             break;

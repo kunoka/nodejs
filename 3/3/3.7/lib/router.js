@@ -9,11 +9,11 @@ module.exports.init = function(respond, request){
 };
 
 module.exports.gotoIndex = function() {
-    var userUrl = PATH + "/view/index.jade";
+    var userUrl = BASE_DIR + "/view/index.jade";
     res.render(userUrl);
 };
 
 module.exports.gotoLive = function() {
-    var userUrl = PATH + "/view/live.jade";
+    var userUrl = BASE_DIR + "/view/live.jade";
     res.render(userUrl);
 }
