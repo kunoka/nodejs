@@ -1,9 +1,20 @@
 //
    Created by gao on 2017/3/12.
-html
-    head
-    meta(charset="utf-8")
-    body
-        form(action="login?c=login" method="post")
-            input(type="text" name="user-name")
-            input(type="submit" value="登陆")
+//html
+//    head
+//        script(src='socket.io/socket.io.js')
+//        script(src='static/js/live.js')
+//
+//        meta(charset="utf-8")
+//    body
+//        form(action="login?c=login" method="post")
+//            input(type="text" name="username")
+//            input(type="submit" value="登陆")
+
+include header
+    form.form-signin(action='login?c=login', method='post')
+        h2.form-signin-heading enter your name
+        input.input-block-level(type="text", placeholder="name", name="username")
+        button.btn.btn-large.btn-primary(type="submit")
+            | Enter in
+include footer

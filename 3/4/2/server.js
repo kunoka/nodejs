@@ -1,7 +1,7 @@
 /**
  * Created by harry on 01/03/2017.
  */
-var test = require('./testGlobal');
+// var test = require('./testGlobal');
 var sessions = new Object();
 var start = function(res, req) {
     var conn = { res: res, req: req };

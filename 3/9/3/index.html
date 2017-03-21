@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/calculate" method="POST">
+    <div>第一个值: <input type="text" name="firstValue"></div>
+    <div>第二个值: <input type="text" name="secondValue"></div>
+    <div>
+        <span><input type="radio" name='type' value="1">+</span>
+        <span><input type="radio" name='type' value="2" checked>-</span>
+        <span><input type="radio" name='type' value="3">*</span>
+        <span><input type="radio" name='type' value="4">/</span>
+    </div>
+    <button type="submit">计算</button>
+</form>
+
+</body>
+</html>
