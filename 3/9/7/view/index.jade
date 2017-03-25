@@ -1,0 +1,30 @@
+//
+   Created by harry on 24/03/2017.
+
+html
+    head
+        title 加密解密
+    body
+        form(action='/encrypt' method='GET')
+            div 加密
+            div
+                span key:
+                span
+                    input(type=text, name='key')
+            div
+                span plaintext:
+                span
+                    input(type=text, name='plaintext')
+            div
+                input(type='submit' value='加密')
+        form(action='/decrypt' method='GET')
+            div 解密
+                span plaintext:
+                span
+                    input(type=text, name='key')
+            div
+                span plaintext:
+                span
+                    input(type=text, name='plaintext')
+            div
+                input(type='submit' value='解密')

@@ -11,7 +11,7 @@ http.createServer(function(req, res){
     var realPath = __dirname + pathname;
 
     if (pathname == '/index' || pathname == '/'){
-        goIndex(res, realPath);
+        goIndex(res, __dirname + '/index.html');
     }else{
         dealWithStatic(pathname, realPath, res);
     }
@@ -22,12 +22,11 @@ console.log('server is running on localhost:3000');
 function goIndex(res, realPath){
     // console.log(realPath + '.html');
     res.writeHead(200, {'Content-Type':'text/html'});
-    var file = fs.readFileSync(realPath+'.html');
+    var file = fs.readFileSync(realPath);
     res.end(file);
 
 }
 function dealWithStatic(pathname, realPath, res){
-    // console.log('realPath: ' + realPath);
     fs.exists(realPath, function(exists){
         if(!exists){
             res.writeHead(404, {'Content-Type':'text/plain'});
@@ -42,8 +41,15 @@ function dealWithStatic(pathname, realPath, res){
                     console.log('css: ' + type);
                     mmieType = 'text/css';
                     break;
+                case 'javascript':
+                    console.log('javascript: ' + type);
+                    mmieType = 'text/javascript';
+                    break;
                 case 'png':
                     mmieType = 'image/png';
+                    break;
+                case 'jpg':
+                    mmieType = 'image/jpg';
                     break;
                 default:
                     mmieType = 'text/plain';
