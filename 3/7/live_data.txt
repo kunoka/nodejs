@@ -1,0 +1,3 @@
+<li><span  class='icon-user'></span><span class='live_user_name text-success'>[danhuang]</span><span class='live_message text-info'>ff</span></li><li><span  class='icon-user'></span><span class='live_user_name text-success'>[danhuang]</span><span class='live_message text-info'>fff</span></li><li><span  class='icon-user'></span><span class='live_user_name text-success'>[danhuang]</span><span class='live_message text-info'>ffffff</span></li><li><span  class='icon-user'></span><span class='live_user_name text-success'>[danhuang]</span><span class='live_message text-info'>I am admin
+</span></li><li><span  class='icon-user'></span><span class='live_user_name text-success'>[danhuang]</span><span class='live_message text-info'>I am admin
+</span></li>
